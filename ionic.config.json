@@ -1,0 +1,7 @@
+{
+  "name": "app_tav",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
