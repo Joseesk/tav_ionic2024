@@ -1,0 +1,17 @@
+<ion-content [fullscreen]="true" class="ion-padding">
+  <div class="login-container">
+    <ion-item><img alt="" src="https://www.duoc.cl/wp-content/uploads/2021/03/logo_duoc-02.jpg" /></ion-item>
+    <h1>Nombre aplicación</h1>
+    <h2>Login</h2>
+    <form [formGroup]="usuario">
+      <ion-item>
+        <ion-input placeholder=" Email" type="email" formControlName="email"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input placeholder=" Contraseña" type="password"  value="password" formControlName="password"></ion-input>
+      </ion-item>
+      <ion-button expand="full" (click)="login()" type="submit">Ingresar</ion-button>
+    </form>
+  </div>
+
+</ion-content>
