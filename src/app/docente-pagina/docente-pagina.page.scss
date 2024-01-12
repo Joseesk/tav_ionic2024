@@ -1,41 +1,38 @@
-/* tu-componente.page.scss */
-
 ion-content {
   --background: #f5f5f5;
 }
 
-.custom-content {
-  padding: 20px;
-}
 
-.info-container {
-  background-color: #6cb2eb; /* Azul claro */
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  padding: 20px;
-  margin-bottom: 20px;
-  text-align: center;
 
-  h2 {
-    color: #fff; /* Texto blanco */
-    margin-bottom: 10px;
+ion-card-header {
+  display: flex;
+
+  ion-card-title {
+    color: #000;
+    font-weight: bold;
+  }
+
+  ion-card-subtitle {
+    color: #888; /* Gris oscuro */
+  }
+
+  ion-button {
+    width: 28px;
+    height: 28px;
+    --border-radius: 50%
+  }
+
+  ion-icon {
+    font-size: 20px;
   }
 }
 
-.custom-card {
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  margin-bottom: 20px;
 
-  ion-card-header {
-    ion-card-title {
-      color: #6cb2eb; /* Azul claro */
-      font-weight: bold;
-    }
 
-    ion-card-subtitle {
-      color: #888; /* Gris oscuro */
-    }
-  }
-}
+
+
+;
+
+
+
+

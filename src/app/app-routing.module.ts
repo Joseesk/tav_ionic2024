@@ -19,6 +19,10 @@ const routes: Routes = [
     path: 'docente-qr',
     loadChildren: () => import('./docente-qr/docente-qr.module').then( m => m.DocenteQrPageModule)
   },
+  {
+    path: 'alumno-pagina',
+    loadChildren: () => import('./alumno-pagina/alumno-pagina.module').then( m => m.AlumnoPaginaPageModule)
+  },
 ];
 
 @NgModule({
